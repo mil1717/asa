@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="contact">
+      <h2>Na kontaktoni!</h2>
+      <form action="#">
+        <div class="input-box">
+          <div class="input-field field">
+            <input
+              type="text"
+              placeholder="Emri plotë"
+              id="name"
+              class="item"
+              autocomplete="off"
+            />
+            <div class="error-txt">Emri i plotë nuk mund te jetë bosh!</div>
+          </div>
+          <div class="input-field field">
+            <input
+              type="text"
+              placeholder="Adresa Emailit"
+              id="email"
+              class="item"
+              autocomplete="off"
+            />
+            <div class="error-txt email">
+              Adresa emailit nuk mund te jetë bosh!
+            </div>
+          </div>
+        </div>
+        <div class="input-box">
+          <div class="input-field field">
+            <input
+              type="text"
+              placeholder="Numri telefonit"
+              id="phone"
+              class="item"
+              autocomplete="off"
+            />
+            <div class="error-txt">
+              Numri i telefonit nuk mund te jetë bosh!
+            </div>
+          </div>
+          <div class="input-field field">
+            <input
+              type="text"
+              placeholder="Subjekti"
+              id="subject"
+              class="item"
+              autocomplete="off"
+            />
+            <div class="error-txt">Subjekti nuk mund te jetë bosh!</div>
+          </div>
+        </div>
+        <div class="textarea-field field">
+          <textarea
+            name=""
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Shkruani mesazhin tuaj ketu!"
+            class="item"
+            autocomplete="off"
+          ></textarea>
+          <div class="error-txt">Fusha mesazhit nuk mund te jetë bosh!</div>
+        </div>
+        <button type="submit">Dergo</button>
+      </form>
+    </section>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

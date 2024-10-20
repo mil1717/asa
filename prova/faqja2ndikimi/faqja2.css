@@ -1,0 +1,81 @@
+/*Navbar*/
+.nav-item {
+  margin-left: 4px;
+  color: rgb(31, 60, 205);
+  font-family: "Lexend", sans-serif;
+  font-size: 18px;
+}
+
+.nav-link {
+  color: rgb(33, 69, 252);
+}
+
+span {
+  font-weight: 500;
+  margin-right: 1px;
+  font-family: Roboto;
+}
+
+/*Content*/
+
+.img1 {
+  width: 1100px;
+  height: 600px;
+}
+.container {
+  margin-top: 30px;
+  font-family: Roboto;
+  color: rgb(71, 68, 68);
+}
+
+.item-1 {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 5px;
+  background-color: rgb(92, 145, 91);
+  color: rgb(255, 255, 255);
+}
+
+.item-2 {
+  margin-top: 60px;
+}
+
+.item-3 {
+  width: 50%;
+  float: left;
+  margin-top: 50px;
+}
+
+.img2 {
+  float: right;
+  width: 50%;
+  padding-left: 30px;
+  padding-top: 75px;
+  padding-bottom: 500px;
+}
+
+.item-5 {
+  padding-top: 60px;
+  margin-top: 60px;
+}
+
+.break {
+  padding-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 35px;
+}
+p {
+  font-size: 17px;
+}
+
+li::marker {
+  color: blue;
+}
+
+li {
+  font-weight: 300;
+}

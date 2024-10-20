@@ -1,0 +1,47 @@
+/*content*/
+.img1 {
+  width: 400px;
+  height: 400px;
+  float: right;
+}
+
+.container {
+  margin-top: 30px;
+  font-family: Roboto;
+  color: rgb(71, 68, 68);
+}
+
+.item-1 {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 5px;
+  background-color: rgb(57, 118, 241);
+  color: rgb(255, 255, 255);
+}
+
+.item-2 {
+  margin-top: 60px;
+}
+
+p {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.space {
+  margin-top: 40px;
+}
+
+li::marker {
+  color: blue;
+}
+
+li {
+  font-weight: 300;
+}
+
+b {
+  text-decoration: underline blue;
+}

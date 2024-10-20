@@ -1,0 +1,75 @@
+/*Content*/
+.container {
+  margin-top: 30px;
+  font-family: Roboto;
+  color: rgb(71, 68, 68);
+}
+
+.item-1 {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 5px;
+  background-color: rgb(159, 42, 213);
+  color: rgb(255, 255, 255);
+}
+
+.item-2 {
+  margin-top: 60px;
+}
+
+.item-3 {
+  margin-top: 60px;
+}
+
+.item-6 {
+  margin-top: 60px;
+}
+.img1 {
+  float: right;
+  margin-top: -85px;
+}
+
+h2 {
+  margin-bottom: 40px;
+  margin-top: 75px;
+}
+
+.img2 {
+  float: right;
+  width: 300px;
+  height: 130px;
+  margin-top: -60px;
+  margin-left: 30px;
+  padding-left: 40px;
+}
+
+.img3 {
+  float: right;
+  width: 250px;
+  height: 170px;
+  margin-top: -60px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.img4 {
+  float: right;
+  width: 250px;
+  height: 190px;
+  margin-top: -110px;
+  margin-left: 30px;
+}
+
+.img5 {
+  float: right;
+  width: 250px;
+  height: 190px;
+  margin-top: -120px;
+  margin-left: 30px;
+}
+
+p {
+  font-size: 17px;
+}

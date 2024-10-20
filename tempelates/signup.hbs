@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/shtese/regform/public/signup.css" />
+  </head>
+  <body style=" color: rgb(6, 6, 7); background-color:rgb(61, 123, 217)">
+    <div class="container" style="margin-left: 40%; margin-top:20%">
+      <h1>Regjistrohu</h1>
+      <form action="/signup" method="post">
+
+        <input
+          style="margin-bottom: 30px; font-size:large"
+          type="text"
+          id="email"
+          placeholder="Emaili juaj"
+        /><br />
+        <input
+          style="margin-bottom: 30px; font-size:large"
+          type="text"
+          id="telefon"
+          placeholder="Numri juaj i telefonit"
+        /><br />
+        <input
+          style="margin-bottom: 30px; font-size:large"
+          onclick="sendData()"
+          type="submit"
+        />
+
+      </form>
+    </div>
+
+    <script>
+      const emri = document.getElementById("email"); const telefon =
+      document.getElementById("telefon"); async function sendData(url =
+      "http://localhost:3000", data = { email, telefon }) { console.log(data)
+      try { const resp = await fetch(url, { method: 'POST', headers: {
+      'Content-Type': 'application/json' }, body: JSON.stringify(data) }); const
+      result = await resp.json(); catch (error) { console.error('Error:',
+      error); } } }
+    </script>
+
+  </body>
+</html>
